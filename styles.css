@@ -151,7 +151,7 @@ header {
     height: 150px;
     width: 478px;
     margin-bottom: 40px;
-    overflow:hidden;
+    overflow: hidden;
 
 }
 
@@ -173,7 +173,7 @@ header {
 .parent-card-wrap {
     padding: 5%;
     background: rebeccapurple;
-    
+
 }
 
 .card-wrapper {
@@ -223,19 +223,21 @@ header {
     position: relative;
     padding: 20px 150px;
     height: 600px;
+    background-color: 7444DA;
     overflow: hidden;
+    background: 7444DA;
 }
 
 .disc {
-    width: 1166.763px;
-    height: 344.857px;
+        height: 344.857px;
     flex-shrink: 0;
-    position: relative;
+    /* position: relative; */
     background-color: #7444DA;
     position: absolute;
     top: 130px;
-    left: 340px;
+    left: 30%;
     z-index: -1;
+    overflow: hidden;
 
 }
 
@@ -278,6 +280,7 @@ header {
     top: 140px;
     left: 50px;
     z-index: 5;
+    color: #FFF;
 }
 
 .astronut {
@@ -285,3 +288,43 @@ header {
     right: 80px;
     top: -120px;
 }
+
+.cloud-footer {
+    position: relative;
+
+
+}
+
+
+
+
+
+.cloud-text {
+    color: #FFF;
+    font-family: Righteous;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 53.95px;
+    position: absolute;
+    top: 22%;
+    left: 18%;
+}
+
+
+.cloud-top {
+    margin-bottom: -242px;
+
+}
+
+
+
+
+
+
+
+
+
+-------------------------------------------------footer------------------
+
+
