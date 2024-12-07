@@ -1,0 +1,251 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.footer-parent {
+  background-color: #575756;
+  padding: 10rem 20px 0rem 20px;
+  display: flex;
+  z-index: -1;
+  justify-content: center;
+  position: relative;
+}
+.second-group {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  column-gap: 3rem;
+  color: #ffffff;
+}
+
+.small-ptn {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 30px;
+}
+.kids-pant {
+  display: flex;
+}
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  height: 250px;
+}
+.log {
+  width: 185px;
+  height: 80px;
+  object-fit: contain;
+}
+.gp-parent {
+  line-height: 40px;
+}
+.icon-parent {
+  display: flex;
+  gap: 15px;
+}
+#youtube {
+  width: 30px;
+  height: 21px;
+}
+#facebook {
+  width: 33px;
+  height: 21px;
+}
+.adeo-group {
+  font-size: 10px;
+  color: #ffff;
+  font-weight: 400;
+  font-family: "Space Mono";
+}
+.line {
+  text-decoration: underline;
+  padding-left: 5px;
+}
+.img-cloud {
+  top: 10;
+  z-index: 1;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  height: 208px;
+}
+
+/* *********************************** */
+.group-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  height: 250px;
+  padding-top: 14px;
+}
+.grown {
+  font-size: 29.69px;
+  font-family: "Righteous";
+  font-weight: 400;
+}
+
+.content-group-1 > ul {
+  line-height: 24px;
+  list-style-type: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Space Mono";
+}
+
+/* *********************************** */
+.two-content-gp {
+  display: flex;
+  width: 50%;
+  column-gap: 5rem;
+}
+.second-gp {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  column-gap: 20px;
+  padding-top: 14px;
+}
+.walls-ptn > ul {
+  list-style-type: none;
+  line-height: 24px;
+  list-style-type: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Space Mono";
+}
+.kids {
+  font-size: 29.69px;
+  font-family: "Righteous";
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.kids-pant {
+  display: flex;
+  column-gap: 3rem;
+}
+.kosmic-parent > ul {
+  list-style-type: none;
+  line-height: 24px;
+  list-style-type: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Space Mono";
+}
+/* ******************************************** */
+.three-contnet {
+  display: flex;
+  flex-direction: column;
+  row-gap: 27px;
+  padding-top: 14px;
+}
+.text-ptn > .us {
+  font-size: 29.69px;
+  font-family: "Righteous";
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.content-gp-4 > ul {
+  list-style-type: none;
+  line-height: 24px;
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Space Mono";
+}
+@media (max-width: 1082px) {
+  .second-group {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 0px;
+    justify-content: center;
+  }
+  .small-ptn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-parent {
+    width: auto;
+    padding: 8rem 0px;
+  }
+
+  .logo-container {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    row-gap: 26px;
+  }
+  .group-container {
+    width: 50%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    height: 200px;
+    padding-top: 14px;
+  }
+  .two-content-gp {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .gp-parent {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .second-gp {
+    width: 100%;
+    column-gap: 0px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .kids-pant {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .walls-ptn {
+    width: 47%;
+    padding-left: 9rem;
+  }
+  .kosmic-parent {
+    width: 53%;
+  }
+  .kids {
+    padding-left: 9rem;
+  }
+  .three-contnet {
+    width: 70%;
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .content-gp-4 > ul {
+    line-height: 20px;
+  }
+}
+@media (max-width: 898px) {
+  .walls-ptn {
+    width: 47%;
+    padding-left: 6rem;
+  }
+  .kids {
+    padding-left: 6rem;
+  }
+  .img-cloud {
+    height: 200px;
+  }
+}
