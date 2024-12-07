@@ -5,14 +5,14 @@
 }
 .footer-parent {
   background-color: #575756;
-  padding: 10rem 20px 0rem 20px;
+  padding: 20px;
   display: flex;
-  z-index: -1;
+  align-items: center;
   justify-content: center;
-  position: relative;
 }
 .second-group {
   width: 100%;
+  align-items: center;
   justify-content: center;
   display: flex;
   column-gap: 3rem;
@@ -22,7 +22,7 @@
 .small-ptn {
   display: flex;
   width: 50%;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   column-gap: 30px;
 }
@@ -64,14 +64,6 @@
 .line {
   text-decoration: underline;
   padding-left: 5px;
-}
-.img-cloud {
-  top: 10;
-  z-index: 1;
-  width: 100%;
-  object-fit: contain;
-  position: absolute;
-  height: 208px;
 }
 
 /* *********************************** */
@@ -156,7 +148,7 @@
   font-size: 15px;
   font-family: "Space Mono";
 }
-@media (max-width: 1082px) {
+/* @media (max-width: 1082px) {
   .second-group {
     display: flex;
     flex-wrap: wrap;
@@ -206,7 +198,9 @@
     width: 100%;
     column-gap: 0px;
     padding-left: 20px;
+    padding-top: 0px;
     display: flex;
+    row-gap: 10px;
     justify-content: space-between;
     align-items: start;
   }
@@ -227,11 +221,12 @@
     padding-left: 9rem;
   }
   .three-contnet {
-    width: 70%;
+    width: 75%;
     row-gap: 10px;
+    text-align: left;
     display: flex;
     flex-direction: column;
-    padding-top: 10px;
+    padding-top: 2rem;
   }
   .content-gp-4 > ul {
     line-height: 20px;
@@ -249,3 +244,60 @@
     height: 200px;
   }
 }
+@media (max-width: 749px) {
+  .walls-ptn {
+    width: 47%;
+    padding-left: 4rem;
+  }
+  .kids {
+    padding-left: 4rem;
+  }
+  .img-cloud {
+    height: 200px;
+  }
+}
+@media (max-width: 663px) and (min-width: 429px) {
+  .walls-ptn {
+    width: 47%;
+    padding-left: 2rem;
+  }
+  .kids {
+    padding-left: 2rem;
+  }
+  .img-cloud {
+    height: 200px;
+  }
+}
+@media (max-width: 475px) {
+  .group-container {
+    display: none;
+  }
+  .logo-container {
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 2rem;
+  }
+
+  .two-content-gp {
+    padding-top: 0rem;
+  }
+}
+@media (min-width: 320px) {
+  .walls-ptn {
+    width: 100%;
+    padding-left: 0rem;
+  }
+  .kids {
+    padding-left: 0rem;
+  }
+  .img-cloud {
+    height: 200px;
+  }
+  .three-contnet {
+    width: 100%;
+    padding-left: 15px;
+  }
+} */
